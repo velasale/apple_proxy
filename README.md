@@ -5,5 +5,7 @@ Repo for rob545 final project of finding the center of an apple relative to the 
 This looks to be the RealSense repo needed for the camera:
 https://github.com/IntelRealSense/realsense-ros
 
-# Run a demo
+## How to run it:
 $ roslaunch apple_proxy pickApp.launch
+
+
