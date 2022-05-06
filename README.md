@@ -6,6 +6,6 @@ This looks to be the RealSense repo needed for the camera:
 https://github.com/IntelRealSense/realsense-ros
 
 ## How to run it:
-$ roslaunch apple_proxy pickApp.launch
+
 
 
