@@ -10,9 +10,6 @@ Panels:
         - /MotionPlanning1/Scene Robot1
         - /MotionPlanning1/Planning Request1
         - /MotionPlanning1/Planned Path1
-        - /Axes1
-        - /Axes2
-        - /Axes3
       Splitter Ratio: 0.7425600290298462
     Tree Height: 1063
   - Class: rviz/Help
@@ -117,6 +114,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          palm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           shoulder_link:
             Alpha: 1
             Show Axes: false
@@ -237,6 +238,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          palm:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           shoulder_link:
             Alpha: 1
             Show Axes: false
@@ -285,22 +290,8 @@ Visualization Manager:
       Marker Topic: /balloons
       Name: MarkerArray
       Namespaces:
-        "": true
+        {}
       Queue Size: 100
-      Value: true
-    - Class: rviz/Axes
-      Enabled: true
-      Length: 0.25
-      Name: Axes
-      Radius: 0.009999999776482582
-      Reference Frame: world
-      Value: true
-    - Class: rviz/Axes
-      Enabled: true
-      Length: 0.25
-      Name: Axes
-      Radius: 0.009999999776482582
-      Reference Frame: tool0
       Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -335,7 +326,7 @@ Visualization Manager:
       Marker Topic: /captions
       Name: Marker
       Namespaces:
-        "": true
+        {}
       Queue Size: 100
       Value: true
     - Class: rviz/Axes
@@ -344,6 +335,27 @@ Visualization Manager:
       Name: Axes
       Radius: 0.009999999776482582
       Reference Frame: base_link
+      Value: true
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 0.25
+      Name: Axes
+      Radius: 0.009999999776482582
+      Reference Frame: world
+      Value: true
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 0.25
+      Name: Axes
+      Radius: 0.009999999776482582
+      Reference Frame: tool0
+      Value: true
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 0.25
+      Name: Axes
+      Radius: 0.009999999776482582
+      Reference Frame: palm
       Value: true
   Enabled: true
   Global Options:
@@ -376,10 +388,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.3647960424423218
+      Pitch: 0.2947961091995239
       Target Frame: base_link
       Value: XYOrbit (rviz)
-      Yaw: 5.62993049621582
+      Yaw: 6.1099348068237305
     Saved: ~
 Window Geometry:
   Displays:
@@ -393,9 +405,9 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001af000004b8fc0200000007fb000000100044006900730070006c006100790073010000003d000004b8000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a0056006900650077007300000003b0000000b0000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067000000003d0000049d0000017d00ffffff00000408000004b800000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000001af000004b8fc0200000007fb000000100044006900730070006c006100790073010000003d000004b8000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a0056006900650077007300000003b0000000b0000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067000000003d0000049d0000017d00ffffff0000046c000004b800000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 1469
-  X: 1047
+  Width: 1569
+  X: 947
   Y: 27
