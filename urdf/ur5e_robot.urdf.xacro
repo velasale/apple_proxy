@@ -9,11 +9,9 @@
     <!-- STEP 1: IMPORT THE URDF XACROS -->
     <!-- ur5e -->
     <xacro:include filename="$(find ur_description)/urdf/ur5e.xacro" />
-
     <!--  Tables and Walls -->
     <xacro:include filename="$(find apple_proxy)/urdf/scene_B.xacro" />
     <xacro:tables />
-
 
 
     <!-- STEP 2: DEFINE THE INTERFACES AMONG ALL THE LINKS FROM -->
@@ -27,6 +25,7 @@
     <parent link="tool0" />
     <child link="lisas_hand" />
     <origin xyz="-0.0675 0.0675 0.004" rpy="0 0 ${-pi/2.0}" />
+        <!-- Note: x and y offset is because the cframe of the 3d model is not located in the center -->
     </joint>
 
     <!-- Describe the interface between the world and the tables -->
@@ -39,7 +38,9 @@
     <joint name="world_small_table" type="fixed">
     <parent link="world" />
     <child link="small_table" />
-    <origin xyz="-0.21 -1.32 0" rpy="0 0 1.5708" />
+    <origin xyz="-0.23 -1.335 0" rpy="0 0 1.5708" />
+        <!-- x_offset = 1.715 - 1.845 = -.23  distances from next wall -->
+        <!-- y_offset = -1.335 -->
     </joint>
 
     <!-- Describe the interface between the world and the Apple Proxy -->
@@ -53,7 +54,7 @@
     <joint name="world_joint" type="fixed">
     <parent link="small_table" />
     <child link = "base_link" />
-    <origin xyz="0.355 0.357 0.86" rpy="0.0 0.0 3.1416" />
+    <origin xyz="0.358 0.357 0.858" rpy="0.0 0.0 3.1416" />
     </joint>
 
     <!-- Describe the location of the palm -->
