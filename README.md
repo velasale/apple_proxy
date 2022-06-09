@@ -9,13 +9,13 @@ The intent of each subfolder:
 
 2) meshes: All the 3d model (stl) of the scene. In this case it has the models of the furniture, apple proxy and hand.
 3) urdf: Includes the Universal Robot Description Format.
-4) launch: 
+4) launch: Launch files for different purposes.
 
 # Instructions
 
 ## 1 - Install additional required packages
 
-Install the UR5e ROS package from [Universal Robots](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver) 
+Install the UR5e ROS package from [Universal Robots](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver). 
 
 
 ## 2 - Make sure to source your ws
