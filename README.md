@@ -13,11 +13,12 @@ The intent of each subfolder:
 
 # Instructions
 
-## 1 - Install additional required pakages
+## 1 - Install additional required packages
+
+Install the UR5e ROS package from [Universal Robots](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver) 
 
 
-
-## 2 - Make sure that you source your ws
+## 2 - Make sure to source your ws
 Option 1 - Everytime you open a terminal:
 ```console
 source ~/YOUR_WS/devel/setup.bash
