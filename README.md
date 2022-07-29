@@ -6,7 +6,7 @@ The intent of each subfolder:
    * joint_limits.yaml: Set the speed and accelerations of the robot's joints
    * kinematics.yaml: Set the parameters of the inverse kinematics solver
    * ur5e.srdf: This is the Semantic Robot Description Format, and is useful to define stuff like:
-      * Links to avoid collision ---if any---.
+      * Define some links that shouldn't be included in the collision avoidance.
       * Define default position (e.g. home).
       * Define link groups.
 
