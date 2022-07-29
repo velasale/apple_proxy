@@ -5,9 +5,15 @@ The intent of each subfolder:
 1) config: 
    * joint_limits.yaml: Set the speed and accelerations of the robot's joints
    * kinematics.yaml: Set the parameters of the inverse kinematics solver
-   * ur5e.srdf: This is the Semantic Robot Description Format, and includes everything that is not included in the *.urdf.
+   * ur5e.srdf: This is the Semantic Robot Description Format, and is useful to define stuff like:
+      * Links to avoid collision ---if any---.
+      * Define default position (e.g. home).
+      * Define link groups.
 
 2) meshes: All the 3d model (stl) of the scene. In this case it has the models of the furniture, apple proxy and hand.
+   *  collision: simplified version of the stl, to make the solver run faster
+   *  visual: these are stl specificly more visualization purposes
+      
 3) urdf: Includes the Universal Robot Description Format.
 4) launch: Launch files for different purposes.
 
