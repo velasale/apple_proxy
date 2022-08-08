@@ -54,9 +54,9 @@
     <joint name = "bigTable_simpleProxy" type="fixed"> -->
     <parent link = "big_table" /> -->
     <child link = "apple_proxy" /> -->
-    <origin xyz = "0.09 0.75 0.975" rpy="1.5708 0 -1.5708" />
+    <origin xyz = "0.4572 0.75 0.975" rpy="1.5708 0 -1.5708" />
         <!-- Media Fellowship setup -->
-        <!-- xyz="+0.09 +0.75 0.975" rpy="1.5708 0 -1.5708"-->
+        <!-- xyz="+0.4572 +0.75 0.975" rpy="1.5708 0 -1.5708"-->
 
         <!-- Fenced area setup -->
         <!-- xyz="+0.09 +0.81 0.975" rpy="1.5708 0 -1.5708"-->

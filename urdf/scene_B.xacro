@@ -44,7 +44,7 @@
 
     <link name="apple_proxy">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="-0.11498 0.7701 0" rpy="0 0 -1.5708"/>
         <geometry>
           <mesh filename="package://apple_proxy/meshes/apple_proxy/visual/apple_proxy_visual.STL" scale="0.001 0.001 0.001"/>
         </geometry>
