@@ -38,16 +38,30 @@
     <joint name="world_small_table" type="fixed">
     <parent link="world" />
     <child link="small_table" />
-    <origin xyz="-0.28 -1.31 0" rpy="0 0 1.5708" />
+    <origin xyz="-0.11 -1.16 +0.24" rpy="0 0 1.5708" />
         <!-- x_offset = 1.715 - 1.845 = -.23  distances from next wall -->
         <!-- y_offset = -1.335 -->
+        
+        <!-- Media Fellowship setup -->
+        <!-- xyz="-0.11 -1.16 +0.24" rpy="0 0 1.5708"-->
+
+        <!-- Fenced area setup -->
+        <!-- xyz="-0.28 -1.31 0" rpy="0 0 1.5708"-->
+
     </joint>
 
     <!-- Describe the interface between the world and the Apple Proxy -->
     <joint name = "bigTable_simpleProxy" type="fixed"> -->
     <parent link = "big_table" /> -->
     <child link = "apple_proxy" /> -->
-    <origin xyz = "0.09 0.81 0.975" rpy="1.5708 0 -1.5708" />
+    <origin xyz = "0.09 0.75 0.975" rpy="1.5708 0 -1.5708" />
+        <!-- Media Fellowship setup -->
+        <!-- xyz="+0.09 +0.75 0.975" rpy="1.5708 0 -1.5708"-->
+
+        <!-- Fenced area setup -->
+        <!-- xyz="+0.09 +0.81 0.975" rpy="1.5708 0 -1.5708"-->
+
+
     </joint>
 
     <!-- Describe the interface between the world and the robot" -->
