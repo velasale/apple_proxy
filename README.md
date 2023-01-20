@@ -63,3 +63,17 @@ roslaunch apple_proxy pickApp_real.launch
 ```
 
 Terminal 3 (Your code):
+
+
+## Notes:
+Robots' ip addresses:
+* Joe's UR5 ip address: 169.254.174.50
+* Cindy's UR5 ip address: 169.254.177.232
+
+Host pc's ip addresses:
+* Desktop: 169.254.133.21
+* Laptop: 169.254.177.231
+
+
+
+
