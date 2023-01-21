@@ -10,7 +10,7 @@
     <!-- ur5e -->
     <xacro:include filename="$(find ur_description)/urdf/ur5e.xacro" />
     <!--  Tables and Walls -->
-    <xacro:include filename="$(find apple_proxy)/urdf/scene_B.xacro" />
+    <xacro:include filename="$(find apple_proxy)/urdf/scene_C.xacro" />
     <xacro:tables />
 
 
@@ -24,7 +24,7 @@
     <joint name="robotiq_coupler_joint" type="fixed">
     <parent link="tool0" />
     <child link="test_rig" />
-    <origin xyz="-0.0675 0.0675 0.004" rpy="0 0 ${-pi/2.0}" />
+    <origin xyz="-0.025 0.04 0" rpy="1.5708 0 0" />
         <!-- Note: x and y offset is because the cframe of the 3d model is not located in the center -->
     </joint>
 
@@ -38,21 +38,21 @@
     <joint name="world_small_table" type="fixed">
     <parent link="world" />
     <child link="joes_ur5_table" />
-    <origin xyz="0 0 0" rpy="0 0 0" />
+    <origin xyz="1.03 0 0.76" rpy="-3.1416 0 3.1416" />
     </joint>
 
     <!-- Describe the interface between the world and the Semi sphere -->
     <joint name = "bigTable_simpleProxy" type="fixed"> -->
     <parent link = "big_table" /> -->
     <child link = "sphere" /> -->
-    <origin xyz = "0 0 0" rpy="0 0 0" />
+    <origin xyz = "0.115 0 1.0325" rpy="0 3.1416 0" />
     </joint>
 
     <!-- Describe the interface between the world and the robot" -->
     <joint name="world_joint" type="fixed">
     <parent link="joes_ur5_table" />
     <child link = "base_link" />
-    <origin xyz="0.358 0.357 0.858" rpy="0.0 0.0 3.1416" />
+    <origin xyz="0.71 0.25 0" rpy="3.1416 0.0 -0.7854" />
     </joint>
 
     <!-- Describe the location of the palm -->
