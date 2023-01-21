@@ -60,6 +60,7 @@
       </collision>
     </link>
 
+
     <link name="test_rig" >
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
