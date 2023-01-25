@@ -46,7 +46,7 @@
     <rosparam>
           zeros:
             shoulder_pan_joint: -1.571
-            shoulder_lift_joint: 0
+            shoulder_lift_joint: 2
             elbow_joint: -2.5307
             wrist_1_joint: -2.3562
             wrist_2_joint: -1.5707
