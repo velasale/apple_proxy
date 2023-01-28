@@ -38,7 +38,7 @@
     <joint name="world_small_table" type="fixed">
     <parent link="world" />
     <child link="joes_ur5_table" />
-    <origin xyz="1.03 0 0.76" rpy="-3.1416 0 3.1416" />
+    <origin xyz="1.019 0.036 0.762" rpy="-3.1416 0 3.1416" />
     </joint>
 
     <!-- Describe the interface between the world and the Semi sphere -->
