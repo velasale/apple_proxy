@@ -79,6 +79,24 @@
       </collision>
     </link>
 
+    <link name="suction_cup_model" >
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://apple_proxy/meshes/suction_experiment/visual/suction_cup_fbx20_visual.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Blue">
+          <color rgba="0 0 1.0 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0.004 0.029 0" rpy="1.5708 0 0"/>
+        <geometry>
+          <mesh filename="package://apple_proxy/meshes/suction_experiment/collision/suction_cup_fbx20_collision.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
 
   </xacro:macro>
 </robot>

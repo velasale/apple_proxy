@@ -54,6 +54,9 @@
     <disable_collisions link1="wrist_1_link" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="wrist_2_link" link2="wrist_3_link" reason="Adjacent" />
 
+    <!-- Disable collisions of the suction_cup rig -->
     <disable_collisions link1="wrist_3_link" link2="test_rig" reason="Adjacent" />
-    <disable_collisions link1="sphere" link2="test_rig" />
+    <disable_collisions link1="test_rig" link2="suction_cup_model" reason="Adjacent" />
+    <disable_collisions link1="sphere" link2="suction_cup_model" reason="Never"/>
+
 </robot>

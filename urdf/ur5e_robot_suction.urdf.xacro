@@ -24,7 +24,7 @@
     <joint name="robotiq_coupler_joint" type="fixed">
     <parent link="tool0" />
     <child link="test_rig" />
-    <origin xyz="-0.025 0.04 0" rpy="1.5708 0 0" />
+    <origin xyz="-0.026 -0.039 0.175" rpy="-1.5708 0 0" />
         <!-- Note: x and y offset is because the cframe of the 3d model is not located in the center -->
     </joint>
 
@@ -60,6 +60,13 @@
     <parent link="tool0" />
     <child link="suction_cup" />
     <origin xyz="0 0 0.203" rpy="0 0 0" />
+    </joint>
+
+    <!-- Describe the location of the tip of the suction cup -->
+    <joint name="suction_cup_model" type="fixed">
+    <parent link="tool0" />
+    <child link="suction_cup_model" />
+    <origin xyz="-0.0165 0.0165 0.203" rpy="3.1416 0 0" />
     </joint>
 
 
