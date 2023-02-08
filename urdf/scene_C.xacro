@@ -48,8 +48,8 @@
         <geometry>
           <mesh filename="package://apple_proxy/meshes/suction_experiment/visual/sphere_base_75mm.STL" scale="0.001 0.001 0.001"/>
         </geometry>
-        <material name="Grey">
-          <color rgba="0.5 0.5 0.5 1.0"/>
+        <material name="Red">
+          <color rgba="1 0 0 1"/>
         </material>
       </visual>
       <collision>
