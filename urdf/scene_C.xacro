@@ -99,23 +99,6 @@
     </link>
 
 
-    <link name="virtual_walls" >
-      <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="package://apple_proxy/meshes/suction_experiment/collision/imaginary_walls.STL" scale="0.001 0.001 0.001"/>
-        </geometry>
-        <material name="Blue">
-          <color rgba="0 0 1.0 0.1"/>
-        </material>
-      </visual>
-      <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="package://apple_proxy/meshes/suction_experiment/collision/imaginary_walls.STL" scale="0.001 0.001 0.001"/>
-        </geometry>
-      </collision>
-    </link>
 
 
   </xacro:macro>
