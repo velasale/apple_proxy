@@ -3,8 +3,8 @@
 
   <arg name="limited" default="false" doc="If true, limits joint range [-PI, PI] on all joints." />
   <!--ur5e parameters files -->
-  <arg name="joint_limit_params" default="$(find ur_description)/config/ur5e/joint_limits.yaml"/>
-  <arg name="kinematics_params" default="$(find ur_description)/config/ur5e/default_kinematics.yaml"/>
+  <arg name="joint_limit_params" default="$(find apple_proxy)/config/joint_limits.yaml"/>
+  <arg name="kinematics_params" default="$(find apple_proxy)/config/kinematics.yaml"/>
   <arg name="physical_params" default="$(find ur_description)/config/ur5e/physical_parameters.yaml"/>
   <arg name="visual_params" default="$(find ur_description)/config/ur5e/visual_parameters.yaml"/>
   <!--common parameters -->
